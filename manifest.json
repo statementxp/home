@@ -1,0 +1,54 @@
+{
+  "manifest_version": "1.0",
+  "client_min_version": "1.0",
+  "timestamp": 1706745600,
+  
+  "ui": {
+    "window": {
+      "title": "Загрузчик проекта «Омега»"
+    },
+    "header": {
+      "title": "Проект «Омега»",
+      "subtitle": "Выберите компоненты для установки"
+    }
+  },
+  
+  "items": [
+    {
+      "id": "engine_core",
+      "name": "Ядро движка",
+      "description": "Базовый исполняемый модуль (v3.2.1)",
+      "size_bytes": 84500000,
+      "required": true,
+      "url_b64": "aHR0cHM6Ly9leGFtcGxlLmNvbS9maWxlcy9lbmdpbmVfY29yZS56aXA=",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "base_assets",
+      "name": "Базовые ассеты",
+      "description": "Модели и текстуры низкого разрешения",
+      "size_bytes": 215000000,
+      "required": true,
+      "url_b64": "aHR0cHM6Ly9leGFtcGxlLmNvbS9maWxlcy9iYXNlX2Fzc2V0cy56aXA=",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "hd_textures",
+      "name": "Текстуры 4K",
+      "description": "Дополнительные текстуры высокого разрешения",
+      "size_bytes": 1200000000,
+      "required": false,
+      "url_b64": "aHR0cHM6Ly9leGFtcGxlLmNvbS9maWxlcy9oZF90ZXh0dXJlcy56aXA=",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "voice_ru",
+      "name": "Русская озвучка",
+      "description": "Полный комплект голосовых файлов",
+      "size_bytes": 450000000,
+      "required": false,
+      "url_b64": "aHR0cHM6Ly9leGFtcGxlLmNvbS9maWxlcy92b2ljZV9ydS56aXA=",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

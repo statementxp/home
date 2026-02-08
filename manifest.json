@@ -12,7 +12,7 @@
       "title": "Альфа-версия",
       "subtitle": "Гидра доминатус!"
     },
-    "project_version": "0.2.1",
+    "project_version": "3.2.1",
     "fallback_color": "#ffd700",
     "background": {
       "image_url_b64": "aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS80VHVqUURPM1Zpdy9tYXhyZXNkZWZhdWx0LmpwZw==",
@@ -106,6 +106,7 @@
   ]
 
 }
+
 
 
 

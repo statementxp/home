@@ -12,7 +12,7 @@
       "title": "Что? Да.",
       "subtitle": "Гидра доминатус!"
     },
-    "project_version": "0.2.1",
+    "project_version": "3.2.1",
     "fallback_color": "#1a1a2e",
     "background": {
       "image_url_b64": "aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS85T1ljZWZxRkFOSS9tYXhyZXNkZWZhdWx0LmpwZw==",
@@ -63,7 +63,7 @@
       "component": "hd_textures",
       "url_b64": "aHR0cHM6Ly9naXRodWIuY29tL3lvdXJvcmdyZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjIuMS9oZF90ZXh0dXJlcy56aXA=",
       "sha256": "c4d5e6f7a8b99988695a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f"
-    },
+    }
   ],
   
   "components": [
@@ -106,8 +106,6 @@
   ]
 
 }
-
-
 
 
 

@@ -1,6 +1,7 @@
 {
   "manifest_version": "1.0",
   "client_min_version": "1.0",
+  "project_version": "0.2.1",
   "timestamp": 1706745600,
   
   "ui": {
@@ -11,6 +12,7 @@
       "title": "Что? Да.",
       "subtitle": "Гидра доминатус!"
     },
+    "project_version": "0.2.1",
     "fallback_color": "#1a1a2e",
     "background": {
       "image_url_b64": "aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS85T1ljZWZxRkFOSS9tYXhyZXNkZWZhdWx0LmpwZw==",
@@ -20,8 +22,61 @@
       "tiled": false
     }
   },
+
+  "tree": [
+    {
+      "path": "engine/core.dll",
+      "name": "Ядро движка",
+      "description": "Базовый исполняемый модуль (v3.2.1)",
+      "size_bytes": 84500000,
+      "required": true,
+      "component": "core",
+      "url_b64": "aHR0cHM6Ly9naXRodWIuY29tL3lvdXJvcmdyZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjIuMS9jb3JlLnppcA==",
+      "sha256": "f1e2d3c4b5a69788695a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2"
+    },
+    {
+      "path": "engine/renderer.dll",
+      "name": "Рендерер",
+      "description": "Модуль рендеринга графики",
+      "size_bytes": 28456789,
+      "required": true,
+      "component": "core",
+      "url_b64": "aHR0cHM6Ly9naXRodWIuY29tL3lvdXJvcmdyZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjIuMS9yZW5kZXJlci56aXA=",
+      "sha256": "e2f3d4c5b6a79887695a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f"
+    },
+    {
+      "path": "assets/textures/base.png",
+      "name": "Базовые текстуры",
+      "description": "Текстуры низкого разрешения для всех моделей",
+      "size_bytes": 215000000,
+      "required": true,
+      "component": "base_assets",
+      "url_b64": "aHR0cHM6Ly9naXRodWIuY29tL3lvdXJvcmdyZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjIuMS9iYXNlX3RleHR1cmVzLnppcA==",
+      "sha256": "d3e4f5c6b7a89988695a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f"
+    },
+    {
+      "path": "assets/textures/hd.png",
+      "name": "Текстуры 4K",
+      "description": "Дополнительные текстуры высокого разрешения",
+      "size_bytes": 1200000000,
+      "required": false,
+      "component": "hd_textures",
+      "url_b64": "aHR0cHM6Ly9naXRodWIuY29tL3lvdXJvcmdyZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjIuMS9oZF90ZXh0dXJlcy56aXA=",
+      "sha256": "c4d5e6f7a8b99988695a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f"
+    },
+    {
+      "path": "lang/ru/strings.json",
+      "name": "Русская локализация",
+      "description": "Файлы перевода интерфейса и диалогов",
+      "size_bytes": 1240000,
+      "required": false,
+      "component": "lang_ru",
+      "url_b64": "aHR0cHM6Ly9naXRodWIuY29tL3lvdXJvcmdyZXBvL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjIuMS9ydV9sb2NhbGl6YXRpb24uemlw",
+      "sha256": "b5c6d7e8f9a09988695a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f"
+    }
+  ],
   
-  "items": [
+  "components": [
     {
       "id": "1",
       "name": "1",
@@ -61,7 +116,6 @@
   ]
 
 }
-
 
 
 

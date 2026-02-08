@@ -10,7 +10,7 @@
     "header": {
       "title": "Что? Да.",
       "subtitle": "Гидра доминатус!"
-    }
+    },
     "fallback_color": "#1a1a2e",
     "background": {
       "image_url_b64": "aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS85T1ljZWZxRkFOSS9tYXhyZXNkZWZhdWx0LmpwZw==",
@@ -61,6 +61,7 @@
   ]
 
 }
+
 
 
 
